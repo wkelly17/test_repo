@@ -2,7 +2,7 @@
   "name": "esl_slides",
   "private": true,
   "scripts": {
-    "build": "slidev build --base /esl-slides/lesson_1",
+    "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export"
   },
