@@ -1,0 +1,53 @@
+/* h1 {
+  color: blue;
+  font-size: 96px;
+} */
+/* h1 {
+  font-size: 4rem !important;
+  line-height: 5rem !important;
+} */
+/* h2 {
+  color: red;
+} */
+/* ul {
+  display: block;
+}
+li {
+  display: block !important;
+} */
+:root {
+  --red: #e44039;
+  --yellow: #efa038;
+  --teal: #73b6b5;
+}
+
+.text-red {
+  color: var(--red);
+}
+.text-yellow {
+  color: var(--yellow);
+}
+.text-teal {
+  color: var(--teal);
+}
+html {
+  font-size: 20px;
+}
+li p {
+  margin: 0.375rem 0 !important;
+}
+.bilingual-parts-list li {
+  display: flex;
+  gap: 0.5rem;
+}
+
+p {
+  color: white;
+  opacity: 0.7 !important;
+}
+strong {
+  text-decoration: underline;
+}
+/* .slidev-layout p {
+  margin: 0 !important;
+} */
