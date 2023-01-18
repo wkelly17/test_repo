@@ -5,6 +5,9 @@ const props = defineProps({
   text: {
     default: "",
   },
+  speed: {
+    default: 1,
+  },
 });
 
 const text = ref(props.text);
@@ -25,18 +28,16 @@ function speakUtterance() {
   // msg.voice = voices[0];
   // console.log(voices);
   msg.volume = 1; // From 0 to 1
-  msg.rate = 1; // From 0.1 to 10
+  msg.rate = props.speed; // From 0.1 to 10
   msg.pitch = 1; // From 0 to 2
   msg.text = props.text;
   msg.lang = "en";
-  console.log({msg});
   speechSynthesis.speak(msg);
 }
 </script>
 
 <template>
   <button
-    border="r gray-400 opacity-50"
     p="2"
     font="mono"
     outline="!none"

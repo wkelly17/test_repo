@@ -116,61 +116,78 @@ ____ </span> <span v-click class="absolute left-0 text-red">100</span>
 
 ---
 
-
+# Los logísticos 
+  En una hoja de papel, escribe estas cosas.
+1. ¿Cómo te llamas?
+2. Número de teléfono [ sola se usa para acordarles de la clase ] 
+3. Correo electronico [ sola se usa para acordarles de la clase ] 
+4. ¿En que area de su vida necesita más inglés? O, ¿Qúe son algunas temas or cosas que le gustaría aprender en la clase.
 
 ---
 
-# Empecemos
+# Aprendamos
 
 
 <div class="flex gap-8">
 <div>
 
-- How are you?
-- I'm fine, thanks.
+- <span class="text-red-600">   How  </span>are you?
+- <span class="text-red-600">I'm (I am) </span>I'm fine, thanks.
 - What's your name?
-- My name is ___
-- I'm from ____
-- Where are you from?  
+- My <span class="text-red-600">name is </span> Will
+- <span class="text-red-600">I'm (I am)</span> from Aberdeen, MS
+- <span class="text-red-600">Where</span> are you from?  
+- What do you do?  
 </div>
 <div>
 <v-clicks>
 
-- How are you?
-- I'm fine, thanks.
-- What's your name?
-- My name is ___
-- I'm from ___
-- Where are you from?  
+- ¿ <span class="text-red-600">Cómo</span>  estás?
+- <span class="text-red-600">Estoy</span> bien gracias
+- ¿Cómo te llamas? o ¿Cúal es su nombre?
+- Me llamo Will. o Mi <span class="text-red-600">nombre es</span>  Will. 
+- <span class="text-red-600">Soy</span> de Aberdeen, Mississippi
+- ¿De <span class="text-red-600">dónde</span> eres?
+- ¿A qué se dedica? o ¿En qué trabaja?
 </v-clicks>
 </div>
 </div>
 
 
+---
+
+# About me (Sobre mi)
+
+<div class="grid grid-cols-2 text-lg gap-4">
+<div class="">
+
+ My name is Will Kelly. I am from Aberdeen Mississippi.  I am happy to be here tonight.  I am also happy because yesterday was my birthday.  I am twenty-seven years old.  I am a web developer (or a computer programmer). 
+</div>
+<div class="mt-4">
+<v-clicks>
+<span>Me llamo Will Kelly. </span> <span>Soy de aberdeen MS.</span> <span>Estoy feliz de estar aquí esta noche.</span> <span>También estoy feliz porque ayer fue mi cumpleaños.</span> <span>Tengo 27 años.</span> <span>Soy desarollador del web, o programador de computadoras.</span>
+</v-clicks>
+</div>
+</div>
+---
 
 ---
 
-# It's your class
-"Where do you need more English?" 
-"What is something specific you might like to study in this class?"
-
----
-
-# Alphabet
-
+# Practice with neighbors
+- Talk with the people beside you.  (Hable con la gente alrededor de tí)
+- Learn the things we mentioned above. Where are they from? What do they do? What is their name? Where do they live now?  
 
 ---
 
 # Alphabet
 <!-- Before we begin, we might want to add the phrases below along with translations in the students' first language (their L1): -->
+<!-- 1. Repeat after me.
+2. Repeat with me. -->
 
 <div class="py-1"></div>
-<div class="text-xl">
+<div class="text-3xl">
 <Alphabet/>
 </div>
 
 
- 
-
-1. Repeat after me.
-2. Repeat with me.
+---
